@@ -1,2 +1,36 @@
-# To-Do-list-
-This is a simple and responsive to-do list application built using HTML and CSS.
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ToDo List</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset class="todo-list">
+        <legend class="todo-list__title">Todo List</legend>
+        <label class="todo-list__label">
+          <input type="checkbox" name="" id="" />
+          <i class="check"></i>
+          <span>Attend meeting</span>
+        </label>
+        <label class="todo-list__label">
+          <input type="checkbox" name="" id="" />
+          <i class="check"></i>
+          <span>Complete Assignment</span>
+        </label>
+        <label class="todo-list__label">
+          <input type="checkbox" name="" id="" />
+          <i class="check"></i>
+          <span>Finish design for new website</span>
+        </label>
+        <label class="todo-list__label">
+          <input type="checkbox" name="" id="" />
+          <i class="check"></i>
+          <span>Go to gym</span>
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
